@@ -22,5 +22,5 @@ exclude:
 # Logos
 footer_logos:
   - name: "Freie Universität Berlin"
-    image: "/img/fu-logo.png"
+    image: "/geostat/img/fu-logo.png"
     url: "https://www.fu-berlin.de/"
