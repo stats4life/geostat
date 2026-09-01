@@ -1,6 +1,6 @@
 # Website-Informationen
 title: GeoStat
-description: Projektdokumentation des Projektes "Geostatistische Grundlagenbildung ko-kreativ".
+description: Dokumentation des Projekts "Geostatistische Grundlagenbildung ko-kreativ".
 avatar: /assets/img/avatar.png # Optional: Pfad zu einem Profilbild
 
 # Design / Theme-Auswahl (Wählen Sie eines dieser offiziellen GitHub-Themes)
@@ -18,3 +18,9 @@ exclude:
   - node_modules/
   - vendor/
   - README.md # Verhindert Dopplungen, falls Sie bereits eine index.md nutzen
+
+# Logos
+footer_logos:
+  - name: "Freie Universität Berlin"
+    image: "/img/fu-logo.png"
+    url: "https://www.fu-berlin.de/"
