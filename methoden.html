@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./umsetzung/dbr.html" rel="next">
+<link href="./ziele.html" rel="prev">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -79,20 +81,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-methoden-liste .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-methoden-liste'] = new List('listing-methoden-liste', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -161,8 +163,16 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">Über das Projekt</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://box.fu-berlin.de/s/rC3i4xqp2H4p7sm"> 
+<span class="menu-text">Feedback</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.geo.fu-berlin.de/en/v/soga"> 
+<span class="menu-text">SOGA</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -175,7 +185,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./literatur.html">Ausgangslage</a></li><li class="breadcrumb-item"><a href="./methoden.html">Methoden</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./methoden.html">Umsetzung</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -199,10 +209,16 @@ window.Quarto = {
  <span class="menu-text">Ausgangslage</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ziele.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ziele</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Ausgangslage</span></a>
+            <a href="./methoden.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Umsetzung</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -210,14 +226,14 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./literatur.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Literatur</span></a>
+  <a href="./umsetzung/dbr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Design Based Research</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./methoden.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Methoden</span></a>
+  <a href="./umsetzung/students-as-partners.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Students as Partners</span></a>
   </div>
 </li>
       </ul>
@@ -225,7 +241,7 @@ window.Quarto = {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Ziele</span></a>
+ <span class="menu-text">Ergebnisse</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -233,25 +249,37 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./literatur.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Literatur</span></a>
+  <a href="./ergebnisse.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ergebnisse</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Methoden</span></a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mehr Ergebnisse</span></a>
   </div>
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./literatur.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quellennachweise</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#verfügbare-methoden" id="toc-verfügbare-methoden" class="nav-link active" data-scroll-target="#verfügbare-methoden">Verfügbare Methoden</a></li>
+  </ul>
+</nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -263,7 +291,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./literatur.html">Ausgangslage</a></li><li class="breadcrumb-item"><a href="./methoden.html">Methoden</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Methoden</h1>
 </div>
@@ -282,81 +310,62 @@ window.Quarto = {
 </header>
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1788794279108" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail"><a href="./methoden/denkbilder.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./methoden/denkbilder.html" class="no-external">Denkbilder</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./methoden/denkbilder.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./methoden/denkbilder.html" class="no-external">
-Das ist der Text der dann erstmal kommt
-</a></div>
-</div>
-<div class="metadata">
-<a href="./methoden/denkbilder.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1788849618869" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<div class="thumbnail"><a href="./methoden/dbr.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./methoden/dbr.html" class="no-external">Design Based Research</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./methoden/dbr.html" class="no-external">tbd</a>
-</div>
-<div class="delink listing-description"><a href="./methoden/dbr.html" class="no-external">
+<p>Hier steht Ihr ganz normaler Einleitungstext. Sie können hier erklären, warum diese Methoden wichtig sind, Grafiken einfügen oder mathematische Formeln aufschreiben.</p>
+<section id="verfügbare-methoden" class="level3">
+<h3 class="anchored" data-anchor-id="verfügbare-methoden">Verfügbare Methoden</h3>
+<p>In dem folgenden Abschnitt finden Sie alle detaillierten Unterseiten:</p>
+<div id="listing-methoden-liste" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1788857400992" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<a href="./umsetzung/dbr.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./img/geostat.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Design Based Research
+</h5>
+<div class="card-text listing-description delink">
 <p>This is the description</p>
-</a></div>
 </div>
-<div class="metadata">
-<a href="./methoden/dbr.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1788849611246" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
-<div class="thumbnail"><a href="./methoden/students-as-partners.html" class="no-external">
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./methoden/students-as-partners.html" class="no-external">students-as-partners</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./methoden/students-as-partners.html" class="no-external"></a>
 </div>
-<div class="delink listing-description"><a href="./methoden/students-as-partners.html" class="no-external">
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1788856841202" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
+<a href="./umsetzung/students-as-partners.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Students as Partners
+</h5>
+<div class="card-text listing-description delink">
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes…
-</a></div>
 </div>
-<div class="metadata">
-<a href="./methoden/students-as-partners.html" class="no-external">
-</a>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
 </div>
+</div>
+</div>
+</div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">Keine Treffer</div>
-</div></main> <!-- /main -->
+</div>
+<p>Hier können Sie nach dem Listing einfach weiterschreiben. Zum Beispiel für abschließende Bemerkungen, Kontaktinfos oder weiterführende Literatur.</p>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -757,6 +766,18 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./ziele.html" class="pagination-link" aria-label="Ziele">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Ziele</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./umsetzung/dbr.html" class="pagination-link" aria-label="Design Based Research">
+        <span class="nav-page-text">Design Based Research</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Herzlich Willkommen!",
     "section": "",
-    "text": "Geostat Webseiten Logo\n\n\n\nAusgangspunkt\nGeowissenschaftler:innen spielen eine zentrale Rolle bei der Erforschung globaler Herausforderungen wie dem Klimawandel, Ressourcenknappheit und Migration. Die rasant steigende Menge entsprechender Daten erfordert anspruchsvolle Methoden der Datenanalyse, die weit über klassische Statistikausbildungen hinausgehen.\nDoch der Aufstieg zu diesen komplexen mathematischen Konzepten und der Programmierung schreckt viele ab – insbesondere Studierende mit Matheangst stehen oft vor unüberwindbaren Hürden.\nUnser Expeditionsziel: Wir wollen das ‚Gelände‘ der Statistiklehre in einen lebendigen, barrierefreien Erfahrungsraum transformieren. Studierende sollen sich von passiven „Tourist:innen“ zu aktiven „Co-Kartograph:innen“ entwickeln, die Verantwortung für ihren eigenen Lernweg übernehmen und sich souverän im Datenraum orientieren.\n\n\nRoutenplanung\nEine neue Landschaft kartiert man nicht allein. Im Sinne des „Students-as-Partners“-Ansatzes arbeiten Fachwissenschaftler, Hochschuldidaktikerinnen und Studierende auf Augenhöhe zusammen.\nDem didaktischen Ansatz des forschenden Entwerfens (Design-Based Research) folgend, spüren wir in iterativen Zyklen systematisch Lernhürden auf und entwickeln direkt in der Praxis neue Navigationshilfen. So bricht die ko-kreative Expedition klassische Hierarchien auf und lässt Lehrende selbst zu Lernenden werden, während alle Beteiligten gemeinsam an robusten, praxisnahen Lehrkonzepten feilen.\n\n\nNavigationshilfen\nHier findest du unsere neu entwickelten Werkzeuge und Materialien, die wir als freie Bildungsmaterialien (OER) teilen. Sie setzen an drei entscheidenden Punkten an:\n🧭 Einführung: Barrierearme Formelsprache\nUm die Hürden mathematischer Abstraktion abzubauen, übersetzen wir Formeln konsequent redundant:\n\nIn natürliche Sprache (Klartext-Anleitungen),\nIn anschauliche Visualisierungen und\nIn direkt ausführbaren Programmiercode (R/Python).\nBeispiel zum Mitnehmen: Schau dir an, wie wir das Konzept des arithmetischen Mittels barrierefrei aufbereitet haben!\n\n🗺️ Orientierung: Kartierung komplexer Inhalte\nDamit der Überblick im Datenraum nicht verloren geht, visualisieren wir komplexe Lehrinhalte mehrdimensional. Unsere interaktiven Arbeitskarten (wie z.B. die Übersicht über diskrete und stetige Skalenniveaus) helfen dir, dich jederzeit im Gelände zu verorten.\n🥾 Aktivierung: Selbstwirksamkeit im Gelände\nWir fördern die eigenständige Exploration wissenschaftlicher Theorie und Praxis.\n\nUnsere Methode: Die Geostatistics course active participation – eine strukturierte Anleitung für wöchentliche, studentische Paper-Reviews, die zeigt, wie Studierende wissenschaftliche Artikel scannen und verstehen lernen, ohne an der Textmenge zu verzweifeln.\n\n\n\nLogbuch: Lessons learnedPräsentation auf dem UFF 202",
+    "text": "Geostat-Persona\n\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,\n\nPräsentation auf dem UFF 2026",
     "crumbs": [
       "Über das Projekt",
       "Startseite"
@@ -15,18 +15,22 @@
     "href": "about.html",
     "title": "Über das Projekt",
     "section": "",
-    "text": "Das Projekt „Geostatistische Grundlagenbildung ko-kreativ“ (GeoStat) will neue Wege in der Ausbildung von Statistik-Kompetenzen gehen. In einem ko-kreativen Prozess arbeiten Studierende, Lehrende und Hochschuldidaktiker:innen eng zusammen, um die Bedürfnisse der Studierenden besser zu verstehen und diese in der Weiterentwicklung der Statistik-Lehre stärker zu berücksichtigen.\nZentral ist die Identifizierung häufiger Lernhürden, die Bereitstellung angemessener Bewältigungsstrategien und die Unterstützung selbstgesteuerter Lernprozesse.\nDie Ergebnisse werden begleitend dokumentiert und veröffentlicht.\n\nFörderung\nDas Projekt wird von April 2025 bis März 2027 durch die Stiftung Innovation in der Hochschullehre gefördert.\n\n\nTeam\n\nDr. Kai Hartmann\nChristine Schnaithmann\nJohanna Boose\nSimon Karl\nLaura Neumann\nSarah Völtz"
+    "text": "Das Projekt „Geostatistische Grundlagenbildung ko-kreativ“ (GeoStat) will neue Wege in der Ausbildung von Statistik-Kompetenzen gehen. In einem ko-kreativen Prozess arbeiten Studierende, Lehrende und Hochschuldidaktiker:innen eng zusammen, um die Bedürfnisse der Studierenden besser zu verstehen und diese in der Weiterentwicklung der Statistik-Lehre stärker zu berücksichtigen.\nZentral ist die Identifizierung häufiger Lernhürden, die Bereitstellung angemessener Bewältigungsstrategien und die Unterstützung selbstgesteuerter Lernprozesse.\nDie Ergebnisse werden begleitend dokumentiert und veröffentlicht.\n\nFörderung\nDas Projekt wird von April 2025 bis März 2027 durch die Stiftung Innovation in der Hochschullehre gefördert.\n\n\nTeam\n\nDr. Kai Hartmann\nChristine Schnaithmann\nJohanna Boose\nSimon Karl\nLaura Neumann\nSarah Völtz",
+    "crumbs": [
+      "Über das Projekt",
+      "Ergebnisse",
+      "Mehr Ergebnisse"
+    ]
   },
   {
     "objectID": "methoden.html",
     "href": "methoden.html",
     "title": "Methoden",
     "section": "",
-    "text": "Denkbilder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesign Based Research\n\n\ntbd\n\n\nThis is the description\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nstudents-as-partners\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKeine Treffer",
+    "text": "Hier steht Ihr ganz normaler Einleitungstext. Sie können hier erklären, warum diese Methoden wichtig sind, Grafiken einfügen oder mathematische Formeln aufschreiben.\n\nVerfügbare Methoden\nIn dem folgenden Abschnitt finden Sie alle detaillierten Unterseiten:\n\n\n\n\n\n\n\n\n\n\nDesign Based Research\n\n\nThis is the description\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStudents as Partners\n\n\n\n\n\n\n\n\n\n\n\n\n\nKeine Treffer\n\nHier können Sie nach dem Listing einfach weiterschreiben. Zum Beispiel für abschließende Bemerkungen, Kontaktinfos oder weiterführende Literatur.",
     "crumbs": [
       "Über das Projekt",
-      "Ausgangslage",
-      "Methoden"
+      "Umsetzung"
     ]
   },
   {
@@ -34,7 +38,12 @@
     "href": "methoden/dbr.html",
     "title": "Design Based Research",
     "section": "",
-    "text": "DBR\ndas ist der inhalt"
+    "text": "DBR\ndas ist der inhalt",
+    "crumbs": [
+      "Über das Projekt",
+      "Umsetzung",
+      "Design Based Research"
+    ]
   },
   {
     "objectID": "methoden/denkbilder.html",
@@ -62,10 +71,64 @@
     "href": "start.html",
     "title": "Ausgangslage",
     "section": "",
-    "text": "Geografische Wissenschaften an der FU",
+    "text": "Geografische Wissenschaften an der FU\nGeowissenschaftler:innen spielen eine zentrale Rolle bei der Erforschung globaler Herausforderungen wie dem Klimawandel, Ressourcenknappheit und Migration. Die rasant steigende Menge entsprechender Daten erfordert anspruchsvolle Methoden der Datenanalyse, die weit über klassische Statistikausbildungen hinausgehen.\nDoch der Aufstieg zu diesen komplexen mathematischen Konzepten und der Programmierung schreckt viele ab – insbesondere Studierende mit Matheangst stehen oft vor unüberwindbaren Hürden.\nUnser Expeditionsziel: Wir wollen das ‚Gelände‘ der Statistiklehre in einen lebendigen, barrierefreien Erfahrungsraum transformieren. Studierende sollen sich von passiven „Tourist:innen“ zu aktiven „Co-Kartograph:innen“ entwickeln, die Verantwortung für ihren eigenen Lernweg übernehmen und sich souverän im Datenraum orientieren.",
     "crumbs": [
       "Über das Projekt",
       "Ausgangslage"
+    ]
+  },
+  {
+    "objectID": "umsetzung/dbr.html",
+    "href": "umsetzung/dbr.html",
+    "title": "Design Based Research",
+    "section": "",
+    "text": "DBR\ndas ist der inhalt",
+    "crumbs": [
+      "Über das Projekt",
+      "Umsetzung",
+      "Design Based Research"
+    ]
+  },
+  {
+    "objectID": "ergebnisse/denkbilder.html",
+    "href": "ergebnisse/denkbilder.html",
+    "title": "Denkbilder",
+    "section": "",
+    "text": "Das ist der Text der dann erstmal kommt"
+  },
+  {
+    "objectID": "umsetzung/students-as-partners.html",
+    "href": "umsetzung/students-as-partners.html",
+    "title": "Students as Partners",
+    "section": "",
+    "text": "Stap\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+    "crumbs": [
+      "Über das Projekt",
+      "Umsetzung",
+      "Students as Partners"
+    ]
+  },
+  {
+    "objectID": "umsetzung.html",
+    "href": "umsetzung.html",
+    "title": "Umsetzung",
+    "section": "",
+    "text": "Eine neue Landschaft kartiert man nicht allein. Im Sinne des „Students-as-Partners“-Ansatzes arbeiten Fachwissenschaftler, Hochschuldidaktikerinnen und Studierende auf Augenhöhe zusammen.\nDem didaktischen Ansatz des forschenden Entwerfens (Design-Based Research) folgend, spüren wir in iterativen Zyklen systematisch Lernhürden auf und entwickeln direkt in der Praxis neue Navigationshilfen. So bricht die ko-kreative Expedition klassische Hierarchien auf und lässt Lehrende selbst zu Lernenden werden, während alle Beteiligten gemeinsam an robusten, praxisnahen Lehrkonzepten feilen.\n\nVerfügbare Methoden\nIn dem folgenden Abschnitt finden Sie alle detaillierten Unterseiten:\n\n\n\n\n\n\n\n\n\n\nDesign Based Research\n\n\nThis is the description\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStudents as Partners\n\n\n\n\n\n\n\n\n\n\n\n\n\nKeine Treffer\n\nHier können Sie nach dem Listing einfach weiterschreiben. Zum Beispiel für abschließende Bemerkungen, Kontaktinfos oder weiterführende Literatur.",
+    "crumbs": [
+      "Über das Projekt",
+      "Umsetzung"
+    ]
+  },
+  {
+    "objectID": "ergebnisse.html",
+    "href": "ergebnisse.html",
+    "title": "Ergebnisse",
+    "section": "",
+    "text": "Hier findest du unsere neu entwickelten Werkzeuge und Materialien, die wir als freie Bildungsmaterialien (OER) teilen. Sie setzen an drei entscheidenden Punkten an:\n🧭 Einführung: Barrierearme Formelsprache\nUm die Hürden mathematischer Abstraktion abzubauen, übersetzen wir Formeln konsequent redundant:\n\nIn natürliche Sprache (Klartext-Anleitungen),\nIn anschauliche Visualisierungen und\nIn direkt ausführbaren Programmiercode (R/Python).\nBeispiel zum Mitnehmen: Schau dir an, wie wir das Konzept des arithmetischen Mittels barrierefrei aufbereitet haben!\n\n🗺️ Orientierung: Kartierung komplexer Inhalte\nDamit der Überblick im Datenraum nicht verloren geht, visualisieren wir komplexe Lehrinhalte mehrdimensional. Unsere interaktiven Arbeitskarten (wie z.B. die Übersicht über diskrete und stetige Skalenniveaus) helfen dir, dich jederzeit im Gelände zu verorten.\n🥾 Aktivierung: Selbstwirksamkeit im Gelände\nWir fördern die eigenständige Exploration wissenschaftlicher Theorie und Praxis.\n\nUnsere Methode: Die Geostatistics course active participation – eine strukturierte Anleitung für wöchentliche, studentische Paper-Reviews, die zeigt, wie Studierende wissenschaftliche Artikel scannen und verstehen lernen, ohne an der Textmenge zu verzweifeln.",
+    "crumbs": [
+      "Über das Projekt",
+      "Ergebnisse",
+      "Ergebnisse"
     ]
   }
 ]

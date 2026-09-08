@@ -2,9 +2,15 @@
   {
     "listing": "/methoden.html",
     "items": [
-      "/methoden/denkbilder.html",
-      "/methoden/dbr.html",
-      "/methoden/students-as-partners.html"
+      "/umsetzung/dbr.html",
+      "/umsetzung/students-as-partners.html"
+    ]
+  },
+  {
+    "listing": "/umsetzung.html",
+    "items": [
+      "/umsetzung/dbr.html",
+      "/umsetzung/students-as-partners.html"
     ]
   }
 ]
