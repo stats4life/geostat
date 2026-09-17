@@ -1,0 +1,97 @@
+{
+  "index.qmd": {
+    "index.html": "4315e676",
+    "index.md": "df34061c"
+  },
+  "about.qmd": {
+    "about.html": "ee44d6c7"
+  },
+  "methoden.qmd": {
+    "methoden.html": "5d0d38a5"
+  },
+  "ergebnisse.qmd": {
+    "ergebnisse.html": "7a7dccc9"
+  },
+  "literatur.qmd": {
+    "literatur.html": "af32d568"
+  },
+  "methoden/dbr.qmd": {
+    "dbr.html": "5fedd9d0"
+  },
+  "methoden/denkbilder.qmd": {
+    "denkbilder.html": "8b597b11"
+  },
+  "methoden/students-as-partners.qmd": {
+    "students-as-partners.html": "be1346bd"
+  },
+  "students-as-partners.qmd": {
+    "students-as-partners.html": "32fde29b"
+  },
+  "index-alt.qmd": {
+    "index-alt.html": "95cd7364"
+  },
+  "start.qmd": {
+    "start.html": "b852cc6f",
+    "start.md": "7adbb7d0"
+  },
+  "ziele.qmd": {
+    "ziele.html": "b4b9ee0a"
+  },
+  "umsetzung/dbr.qmd": {
+    "dbr.html": "fb61a583"
+  },
+  "umsetzung/students-as-partners.qmd": {
+    "students-as-partners.html": "9719b1ca"
+  },
+  "ergebnisse/denkbilder.qmd": {
+    "denkbilder.html": "4058f42b"
+  },
+  "umsetzung.qmd": {
+    "umsetzung.html": "9421f151"
+  },
+  "rahmen/geoki.qmd": {
+    "geoki.html": "da343f1e"
+  },
+  "rahmen/soga.qmd": {
+    "soga.html": "be8fbc43"
+  },
+  "rahmen/geo-fu.qmd": {
+    "geo-fu.html": "8a5c994b"
+  },
+  "umsetzung/kokreativ.qmd": {
+    "kokreativ.html": "572112ca"
+  },
+  "ergebnisse/lernhuerden.qmd": {
+    "lernhuerden.html": "e6566e34"
+  },
+  "ergebnisse/design-objekte.qmd": {
+    "design-objekte.html": "62987082"
+  },
+  "ergebnisse/aktivierung.qmd": {
+    "aktivierung.html": "90ccb9b8"
+  },
+  "ergebnisse/ubersetzungen.qmd": {
+    "ubersetzungen.html": "1927a56c"
+  },
+  "ergebnisse/orientierung.qmd": {
+    "orientierung.html": "698c63fd"
+  },
+  "ergebnisse/lessons.qmd": {
+    "lessons.html": "846c7261"
+  },
+  "ergebnisse/objekte/aktivierung.qmd": {
+    "aktivierung.html": "5b559a49"
+  },
+  "ergebnisse/objekte/ubersetzungen.qmd": {
+    "ubersetzungen.html": "9c0a23dc"
+  },
+  "ergebnisse/objekte/orientierung.qmd": {
+    "orientierung.html": "fc489952"
+  },
+  "lessons.qmd": {
+    "lessons.html": "cc7bfe54"
+  },
+  "ausblick.qmd": {
+    "ausblick.html": "e3b280b7"
+  }
+}

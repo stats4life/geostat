@@ -1,0 +1,28 @@
+---
+title: "Über das Projekt"
+image: "img/geostat-junge.png"
+---
+
+Das Projekt „Geostatistische Grundlagenbildung ko-kreativ“ (GeoStat) will neue Wege in der Ausbildung von Statistik-Kompetenzen gehen. In einem ko-kreativen Prozess arbeiten Studierende, Lehrende und Hochschuldidaktiker:innen eng zusammen, um die Bedürfnisse der Studierenden besser zu verstehen und diese in der Weiterentwicklung der Statistik-Lehre stärker zu berücksichtigen.
+
+Zentral ist die Identifizierung häufiger Lernhürden, die Bereitstellung angemessener Bewältigungsstrategien und die Unterstützung selbstgesteuerter Lernprozesse.
+
+Die Ergebnisse werden begleitend dokumentiert und veröffentlicht.
+
+# Förderung
+
+Das Projekt wird von April 2025 bis März 2027 durch die [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/projekt/geostat/) gefördert.
+
+# Team
+
+- [Dr. Kai Hartmann](https://www.fu-berlin.de/sites/dcat/unser-angebot/GeoStat/GeoStat_Team/Hartmann_Kai/index.html "Dr. Kai Hartmann")
+
+- [Christine Schnaithmann](https://www.fu-berlin.de/sites/dcat/unser-angebot/GeoStat/GeoStat_Team/Schnaithmann_Christine/index.html "Christine Schnaithmann")
+
+- [Johanna Boose](https://www.fu-berlin.de/sites/dcat/unser-angebot/GeoStat/GeoStat_Team/Boose_Johanna/index.html "Johanna Boose")
+
+- [Simon Karl](https://www.fu-berlin.de/sites/dcat/unser-angebot/GeoStat/GeoStat_Team/Karl_Simon/index.html "Simon Karl")
+
+- [Laura Neumann](https://www.fu-berlin.de/sites/dcat/unser-angebot/GeoStat/GeoStat_Team/Neumann_Laura/index.html "Laura Neumann")
+
+- [Sarah Völtz](https://www.fu-berlin.de/sites/dcat/unser-angebot/GeoStat/GeoStat_Team/Voeltz_Sarah/index.html "Sarah Völtz")

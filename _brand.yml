@@ -1,0 +1,11 @@
+color:
+  palette:
+    black: "#000000"
+    white: "#FFFFFF"
+    charcoal: "#162627" 
+    light-charcoal: "#243e3f" 
+    fugreen: "#CCFF00"
+    fu-blue: "#004659"
+  foreground: black
+  background: white 
+  primary: fugreen

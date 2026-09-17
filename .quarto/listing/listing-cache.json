@@ -1,0 +1,23 @@
+{
+  "listingMap": {
+    "methoden.qmd": [
+      "methoden/",
+      "umsetzung/"
+    ],
+    "umsetzung.qmd": [
+      "umsetzung/"
+    ],
+    "start.qmd": [
+      "rahmen/",
+      "about.md rahmen/",
+      "about.md, rahmen/"
+    ],
+    "ergebnisse.qmd": [
+      "ergebnisse/",
+      "ergebnisse/*.qmd"
+    ],
+    "ergebnisse/design-objekte.qmd": [
+      "objekte/"
+    ]
+  }
+}

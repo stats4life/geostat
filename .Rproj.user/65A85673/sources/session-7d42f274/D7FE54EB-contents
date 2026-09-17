@@ -1,0 +1,77 @@
+project:
+  type: website
+
+website:
+  title: "GeoStat"
+  bread-crumbs: true
+  page-navigation: true
+  navbar:
+    logo: "images/logo-geostat-notnormal-simpel.png"    
+    left:
+      - about.qmd
+      - href: https://box.fu-berlin.de/s/rC3i4xqp2H4p7sm
+        text: "Feedback"
+    right:
+      - href: https://www.tu.berlin/ilaup/nachrichtendetails/lehrformat-geoki-setzt-sich-unter-6033-einreichungen-durch-und-ist-eins-von-insgesamt-drei-gefoerderten-projekten-an-der-tu-berlin-1
+        text: GeoKI (TU Berlin)
+      - href: https://www.geo.fu-berlin.de/en/v/soga
+        text: "SOGA"
+  # margin-footer: "![logo](/img/geostat.png)"
+  sidebar:
+    style: "docked"
+    collapse-level: 2
+    contents:
+      - href: index.qmd
+        text: Startseite
+     # - text: "---"
+      - text: "Ausgangslage und Ziel"
+        href: start.qmd
+      - text: "Umsetzung"
+        href: umsetzung.qmd
+    #    contents: "rahmen/*.qmd"
+      #- href: ziele.qmd
+      #  text: Ziele
+     # - text: "---"
+    #  - section: "Umsetzung"
+    #    href: umsetzung.qmd
+      #  contents: "umsetzung/*.qmd"
+      #- text: "---"
+      - text: Produkte
+        href: ergebnisse.qmd
+        #contents:
+         # - href: ergebnisse/lernhuerden.qmd
+          #  text: "Lernhürden"
+          #- section: "Design-Objekte"
+          #  href: ergebnisse/design-objekte.qmd 
+          #  contents: "ergebnisse/objekte/*.qmd" 
+          #- href: ergebnisse/lessons.qmd
+          #  text: "Lessons learned"
+        #contents:
+        #  - href: ergebnisse.qmd
+        #    text: Ergebnisse
+        #  - href: about.qmd
+        #    text: Mehr Ergebnisse
+      - text: Erkenntnisse
+        href: lessons.qmd
+      - text: Ausblick
+        href: ausblick.qmd
+      - text: "---"
+      - href: literatur.qmd
+        text: Quellennachweise
+  
+  
+format:
+  html:
+    theme:
+      - flatly
+    css: styles.css
+    toc: true
+    # Nutzt globale, schnelle Server für die Core-Skripte statt eigener Kopien
+    self-contained: false 
+    lib-dir: site_libs
+    
+lang: de
+
+editor: visual
+
+
