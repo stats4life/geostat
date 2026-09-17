@@ -1,5 +1,0 @@
----
-title: "Ko-Kreativität"
-description: "Heterogenes Projektteam: Fachwissenschaftler, Didaktikerin, Studierende"
-order: 1
----

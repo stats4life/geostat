@@ -1,5 +1,0 @@
----
-title: "Vorarbeiten"
-description: "E-Learning Projekt SOGA (Statistics and Geodata Analysis)"
-order: 2
----

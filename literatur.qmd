@@ -1,4 +1,0 @@
----
-title: "Literatur"
-format: html
----
