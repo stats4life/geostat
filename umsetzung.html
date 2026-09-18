@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -107,18 +126,14 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Über das Projekt</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://box.fu-berlin.de/s/rC3i4xqp2H4p7sm"> 
-<span class="menu-text">Feedback</span></a>
+    <a class="nav-link" href="https://www.geo.fu-berlin.de/en/v/soga"> 
+<span class="menu-text">SOGA</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://www.tu.berlin/ilaup/nachrichtendetails/lehrformat-geoki-setzt-sich-unter-6033-einreichungen-durch-und-ist-eins-von-insgesamt-drei-gefoerderten-projekten-an-der-tu-berlin-1"> 
-<span class="menu-text">GeoKI (TU Berlin)</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.geo.fu-berlin.de/en/v/soga"> 
-<span class="menu-text">SOGA</span></a>
+    <a class="nav-link" href="https://box.fu-berlin.de/s/rC3i4xqp2H4p7sm"> 
+<span class="menu-text">Feedback</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -228,16 +243,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Unsere Arbeitsweise basiert auf Ko-Kreativität und Partizipation: Ein Fachwissenschaftler und eine Hochschuldidaktikerin arbeiten mit Studierenden als gleichberechtigten Partner:innen zusammen – ganz im Sinne von „Students as Partners“.</p>
+<p>Unsere Arbeitsweise basiert auf Ko-Kreativität und Partizipation: Ein Fachwissenschaftler und eine Hochschuldidaktikerin arbeiten mit Studierenden als gleichberechtigten Partner:innen zusammen – ganz im Sinne von „Students as Partners“ [@weimann-sandig:2023].</p>
 <section id="ansätze" class="level2">
 <h2 class="anchored" data-anchor-id="ansätze">Ansätze</h2>
-<p>Dabei orientieren wir uns an Ansätzen wie Design-Based Research, Decoding the Disciplines, die uns helfen, systematisch und evidenzbasiert Lösungen zu entwickeln.</p>
+<p>Dabei orientieren wir uns auch an Ansätzen wie [Design-Based Research](<a href="https://de.wikipedia.org/wiki/Gestaltungsorientierte_Forschung" class="uri">https://de.wikipedia.org/wiki/Gestaltungsorientierte_Forschung</a>) und [Decoding the Disciplines](<a href="https://de.wikipedia.org/wiki/Decoding_the_Disciplines" class="uri">https://de.wikipedia.org/wiki/Decoding_the_Disciplines</a>), die uns helfen, systematisch und evidenzbasiert Lösungen zu entwickeln.</p>
 <ul>
 <li><strong>Students as Partners</strong> bedeutet für uns: Studierende sind nicht nur Lernende, sondern Mitgestalter:innen ihrer Lehre. Sie bringen ihre Perspektiven ein – etwa durch Feedback, kreative Workshops oder die Mitentwicklung von Materialien.</li>
-<li><strong>Design-Based Research</strong> ermöglicht es uns, praktische Lösungen direkt in der Lehrveranstaltung zu erproben und kontinuierlich zu verbessern.</li>
+<li><strong>Design-Based Research</strong> ermöglicht es uns, praktische Lösungen direkt in der Lehrveranstaltung zu erproben und kontinuierlich zu verbessern <span class="citation" data-cites="reinmann:2024">(<a href="#ref-reinmann:2024" role="doc-biblioref">Reinmann u.&nbsp;a. 2024</a>)</span>.</li>
 <li><strong>Decoding the Disciplines</strong> hilft uns, fachspezifische Lernhürden zu identifizieren – etwa indem wir fragen: Wo scheitern Studierende typischerweise bei der Interpretation von p-Werten oder der Anwendung statistischer Tests?</li>
 </ul>
-<p>Unser eklektisches Vorgehen kombiniert diese Ansätze flexibel, um die besten Methoden für unsere Ziele einzusetzen.</p>
+<p>Unser eklektisches Vorgehen <span class="citation" data-cites="zierer:2009">(<a href="#ref-zierer:2009" role="doc-biblioref">Zierer 2009</a>)</span> kombiniert diese Ansätze flexibel, um die besten Methoden für unsere Ziele einzusetzen.</p>
 </section>
 <section id="projekt-karte" class="level2">
 <h2 class="anchored" data-anchor-id="projekt-karte">Projekt-Karte</h2>
@@ -250,11 +265,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="schritt-2-gelände-kartieren" class="level2">
 <h2 class="anchored" data-anchor-id="schritt-2-gelände-kartieren">Schritt 2: ‚Gelände‘ kartieren</h2>
-<p>Anschließend kartieren wir das ‚Gelände‘: Welche Inhalte stellen besonders große Hürden dar? In welchen Situationen erscheinen die Studierenden überfordert? Was hilft ihnen beim Lernen? Welche Tools und Ressourcen nutzen sie außerhalb der Lehrveranstaltung – und warum? Mit welchen Bildern und Metaphern beschreiben sie selbst die ‚Landschaft Statistik‘?</p>
+<p>Anschließend kartieren wir das ‚Gelände‘: Was müssen die Studierenden können, um die Statistik zu meistern? Welche Inhalte stellen besonders große Hürden dar? In welchen Situationen erscheinen die Studierenden überfordert? Was hilft ihnen beim Lernen? Welche Tools und Ressourcen nutzen sie außerhalb der Lehrveranstaltung – und warum? Mit welchen Bildern und Metaphern beschreiben sie selbst die ‚Landschaft Statistik‘?</p>
 </section>
 <section id="schritt-3-navigationshilfen-entwickeln" class="level2">
 <h2 class="anchored" data-anchor-id="schritt-3-navigationshilfen-entwickeln">Schritt 3: Navigationshilfen entwickeln</h2>
-<p>Darauf aufbauend entwickeln wir gezielt Navigationshilfen, die Studierende durch die ‚Landschaft Statistik‘ führen. Wie die genau aussehen beschreiben wir [hier](./produkte.qmd).</p>
+<p>Darauf aufbauend entwickeln wir gezielt Navigationshilfen, die Studierende durch die ‚Landschaft Statistik‘ führen. Wie die genau aussehen beschreiben wir <a href="./produkte.qmd">hier</a>.</p>
 </section>
 <section id="schritt-4-erproben-reflektieren-verbessern" class="level2">
 <h2 class="anchored" data-anchor-id="schritt-4-erproben-reflektieren-verbessern">Schritt 4: Erproben, reflektieren, verbessern</h2>
@@ -262,13 +277,22 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="ko-kreativ-zusammenarbeiten" class="level2">
 <h2 class="anchored" data-anchor-id="ko-kreativ-zusammenarbeiten">Ko-kreativ zusammenarbeiten</h2>
-<p><img src="images/lego.jpg" class="img-fluid" style="float: left; margin-right: 1rem; margin-bottom: 0.5rem;" width="400">Werkzeuge wie Lego® Serious Play® helfen uns, kreative Ideen zu entwickeln und Studierende aktiv einzubinden. Zum Beispiel bauen wir gemeinsam 3D-Modelle der ‚Landschaft Statistik‘, um Lernhürden sichtbar zu machen oder Lösungsansätze zu skizzieren.</p>
+<p><img src="images/lego.jpg" class="img-fluid" style="float: left; margin-right: 1rem; margin-bottom: 0.5rem;" width="400"></p>
+<p>Werkzeuge wie Lego® Serious Play® helfen uns, kreative Ideen zu entwickeln und Studierende aktiv einzubinden. Zum Beispiel bauen wir gemeinsam 3D-Modelle der ‚Landschaft Statistik‘, um Lernhürden sichtbar zu machen oder Lösungsansätze zu skizzieren.</p>
 <p>So entsteht eine dynamische Lehr-Lern-Kultur, in der alle Beteiligten – Lehrende wie Lernende – gemeinsam wachsen. Am Ende soll eine Statistik-Lehre entstehen, die nicht nur Wissen vermittelt, sondern auch Neugier weckt, Selbstvertrauen stärkt und dauerhaft im Gedächtnis bleibt – weil sie auf den echten Bedürfnissen und Perspektiven der Studierenden aufbaut.</p>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-reinmann:2024" class="csl-entry" role="listitem">
+Reinmann, Gabi, Dominikus Herzberg, und Alexa Brase. 2024. <em><span>Forschendes Entwerfen: Design-Based Research in der Hochschuldidaktik</span></em>. 1. Aufl. Bd. 7. <span>Zukunft der Hochschule</span>. Transcript Verlag. <a href="https://doi.org/10.14361/9783839474242">https://doi.org/10.14361/9783839474242</a>.
+</div>
+<div id="ref-zierer:2009" class="csl-entry" role="listitem">
+Zierer, Klaus. 2009. <span>„<span>Eklektik in der Pädagogik. Grundzüge einer gängigen Methode</span>“</span>. <em>Zeitschrift für Pädagogik</em> 55 (6): 928–44. <a href="https://doi.org/10.25656/01:4284">https://doi.org/10.25656/01:4284</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
